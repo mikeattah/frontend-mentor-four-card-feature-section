@@ -1,120 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="hydrated" lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
     <title>Frontend Mentor | Four card feature section</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="top">
-        <h2 class="header-1">Reliable, efficient delivery</h2>
-        <h2 class="header-2">Powered by Technology</h2>
-        <p class="para-1">
-          Our artificial intelligence powered tools use millions of project data
-          points to ensure that your project is successful
-        </p>
-      </div>
-      <div class="bottom">
-        <div class="item-s">
-          <div class="supervisor">
-            <div class="supervisor-top">
-              <h3 class="header-3">Supervisor</h3>
-              <p class="para-2">
-                Monitors activity to identify project roadblocks
-              </p>
-            </div>
-            <div class="supervisor-bottom">
-              <img
-                src="./images/icon-supervisor.svg"
-                alt="Supervisor icon"
-                width="25%"
-                height="50%"
-              />
-            </div>
+    <header class="top">
+      <h1 class="header-1">Reliable, efficient delivery</h1>
+      <p class="header-2">Powered by Technology</p>
+      <p class="para-1">
+        Our artificial intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </header>
+    <main class="bottom">
+      <section class="item-s">
+        <div class="supervisor">
+          <div class="supervisor-top">
+            <h2 class="header-3">Supervisor</h2>
+            <p class="para-2">
+              Monitors activity to identify project roadblocks
+            </p>
+          </div>
+          <div class="supervisor-bottom">
+            <img
+              src="./images/icon-supervisor.svg"
+              alt="Supervisor icon"
+              width="25%"
+              height="50%"
+            />
           </div>
         </div>
-        <div class="item-t">
-          <div class="team-builder">
-            <div class="team-builder-top">
-              <h3 class="header-3">Team Builder</h3>
-              <p class="para-2">
-                Scans our talent network to create the optimal team for your
-                project
-              </p>
-            </div>
-            <div class="team-builder-bottom">
-              <img
-                src="./images/icon-team-builder.svg"
-                alt="Team Builder icon"
-                width="25%"
-                height="50%"
-              />
-            </div>
+      </section>
+      <section class="item-t">
+        <div class="team-builder">
+          <div class="team-builder-top">
+            <h2 class="header-3">Team Builder</h2>
+            <p class="para-2">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+          </div>
+          <div class="team-builder-bottom">
+            <img
+              src="./images/icon-team-builder.svg"
+              alt="Team Builder icon"
+              width="25%"
+              height="50%"
+            />
           </div>
         </div>
-        <div class="item-k">
-          <div class="karma">
-            <div class="karma-top">
-              <h3 class="header-3">Karma</h3>
-              <p class="para-2">
-                Regularly evaluates our talent to ensure quality
-              </p>
-            </div>
-            <div class="karma-bottom">
-              <img
-                src="./images/icon-karma.svg"
-                alt="Karma icon"
-                width="25%"
-                height="50%"
-              />
-            </div>
+      </section>
+      <section class="item-k">
+        <div class="karma">
+          <div class="karma-top">
+            <h2 class="header-3">Karma</h2>
+            <p class="para-2">
+              Regularly evaluates our talent to ensure quality
+            </p>
+          </div>
+          <div class="karma-bottom">
+            <img
+              src="./images/icon-karma.svg"
+              alt="Karma icon"
+              width="25%"
+              height="50%"
+            />
           </div>
         </div>
-        <div class="item-c">
-          <div class="calculator">
-            <div class="calculator-top">
-              <h3 class="header-3">Calculator</h3>
-              <p class="para-2">
-                Uses data from past projects to provide better delivery
-                estimates
-              </p>
-            </div>
-            <div class="calculator-bottom">
-              <img
-                src="./images/icon-calculator.svg"
-                alt="calculator icon"
-                width="25%"
-                height="50%"
-              />
-            </div>
+      </section>
+      <section class="item-c">
+        <div class="calculator">
+          <div class="calculator-top">
+            <h2 class="header-3">Calculator</h2>
+            <p class="para-2">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+          </div>
+          <div class="calculator-bottom">
+            <img
+              src="./images/icon-calculator.svg"
+              alt="calculator icon"
+              width="25%"
+              height="50%"
+            />
           </div>
         </div>
-      </div>
-      <footer>
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://twitter.com/miikeattah" target="_blank">Mike Attah</a
-          >.
-        </p>
-      </footer>
-    </div>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://twitter.com/miikeattah"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mike Attah</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
