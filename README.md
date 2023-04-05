@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-web-design-using-html5-css-incl-css-grid-paIiBgqVg)
-- Live Site URL: [GitHub Pages](https://mikeattah.github.io/four-card-feature-section/)
+- View Submission: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-web-design-using-html5-css-incl-css-grid-paIiBgqVg)
+- View Site: [GitHub Pages](https://mikeattah.github.io/four-card-feature-sectionfrontend-mentor-four-card-feature-section/)
 
 ## My process
 
